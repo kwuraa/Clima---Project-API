@@ -20,7 +20,7 @@ form === null || form === void 0 ? void 0 : form.addEventListener("submit", (eve
         alert("O local precisa ter pelo menos 3 letras");
         return;
     }
-    const response = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=6b875ef3cdd34cc9b8cd2cba3d7205e4&lang=pt_br&units=metric`);
+    const response = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid={API-KEY}lang=pt_br&units=metric`);
     const data = yield response.json();
     const infos = {
         temperatura: Math.round(data.main.temp),

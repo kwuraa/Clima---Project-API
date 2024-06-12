@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: white;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 2rem;
+  background-color: #333;
+  border-radius: 10px;
+
+  max-width: 800px;
+}
+
+main > h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+main #search-form form {
+  display: flex;
+  gap: 0.5rem;
+
+  width: 100%;
+}
+
+main #search-form #input-cidade {
+  flex: 1;
+  height: 32px;
+
+  border-radius: 10px;
+  border: none;
+
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+main #search-form #input-estado {
+  flex: 1;
+  height: 32px;
+
+  max-width: 30%;
+
+  border-radius: 10px;
+  border: none;
+
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+main #search-form button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+
+  cursor: pointer;
+}
+
+main #tempo-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main #tempo-info .tempo-data h2 {
+  font-size: 18px;
+  font-weight: 350;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+main #tempo-info .tempo-data span {
+  font-size: 3rem;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+**README**
+
+Este é um projeto básico desenvolvido para fins de estudo no curso "Ada Tech - Front End com React". O objetivo principal deste projeto é praticar e entender conceitos fundamentais de desenvolvimento web, incluindo HTML, CSS, JavaScript e TypeScript.
+
+### Estrutura do Projeto
+
+- **HTML (index.html):** O arquivo HTML é a estrutura principal da página web. Ele contém elementos como cabeçalho, formulário de pesquisa e seção para exibir informações sobre o tempo.
+
+- **CSS (style.css):** O arquivo CSS contém estilos para estilizar a página HTML. Ele define a aparência visual dos elementos, como cores, fontes, espaçamentos e layouts.
+
+- **JavaScript (script.js):** O arquivo JavaScript é responsável pela funcionalidade interativa da página. Ele manipula eventos do usuário, como cliques de botões, e interage com serviços externos para obter e exibir informações sobre o tempo.
+
+- **TypeScript (script.ts):** O arquivo TypeScript contém código JavaScript com adição de tipagem estática fornecida pelo TypeScript. Ele ajuda a detectar erros em tempo de compilação e fornece uma melhor experiência de desenvolvimento.
+
+### Recursos Utilizados
+
+- **Google Fonts:** Este projeto utiliza a fonte "Material Symbols Outlined" do Google Fonts para estilizar os elementos da página.
+
+### Como Usar
+
+Para utilizar este projeto, basta abrir o arquivo `index.html` em um navegador web. Você verá uma interface simples que permite pesquisar as condições do tempo para uma determinada cidade.
+
+### Contribuições
+
+Este projeto foi desenvolvido para fins educacionais e não está aberto para contribuições externas no momento. No entanto, sinta-se à vontade para fazer um fork deste repositório e experimentar com o código por conta própria.
+
+### Agradecimentos
+
+Agradecemos à equipe do curso Ada Tech por fornecer recursos e suporte durante o processo de aprendizado.
